@@ -1,0 +1,61 @@
+:root {
+  --color-primary: #668c95;
+  --color-secondary: #69d7cc;
+  --color-accent: #ff7e05;
+  --color-accent-a: #414042;
+  --color-accent-b: #6c686c;
+  --color-background: #e7eabb;
+  --color-background-light: #fafafa;
+
+  --font-primary: "Proxima Nova", Arial, sans-serif;
+  --font-secondary: Quicksand, Menlo, Consolas, monospace;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h3,h4,h5,h6 {
+  color: var(--color-accent-b);
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+ul li, ol li {
+  color: var(--color-accent-a);
+}
+
+dl dt {
+  color: var(--color-accent-b);
+  font-weight: bold;
+}
+
+dl dd {
+  color: var(--color-accent-a);
+}
+
+blockquote {
+  color: var(--color-accent-a);
+}
+
+cite {
+  color: var(--color-accent);
+  font-family: var(--font-secondary);
+}
+
+q {
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}

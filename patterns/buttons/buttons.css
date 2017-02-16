@@ -1,0 +1,8 @@
+.btn {
+  background-color: var(--color-secondary);
+  border-color: transparent;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+
+  color: var(--color-neutral-light);
+}

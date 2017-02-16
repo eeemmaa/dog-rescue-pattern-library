@@ -1,6 +1,6 @@
 ---
 name: "Loyal Rescue Inc."
-fontUrl: "https://fonts.googleapis.com/css?family=Quicksand:400,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Quicksand:400,500,700"
 typekit: "iog4hfi=proxima-nova:400,400i,700,700i"
 fonts:
   primary: |

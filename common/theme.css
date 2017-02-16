@@ -20,7 +20,7 @@ h1, h2 {
   font-family: var(--font-secondary);
 }
 
-h3,h4,h5,h6 {
+h3, h4, h5, h6 {
   color: var(--color-accent-b);
   font-family: var(--font-secondary);
 }

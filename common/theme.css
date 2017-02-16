@@ -7,8 +7,8 @@
   --color-background: #e7eabb;
   --color-background-light: #fafafa;
 
-  --font-primary: "Proxima Nova", Arial, sans-serif;
-  --font-secondary: Quicksand, Menlo, Consolas, monospace;
+  --font-primary: "Proxima Nova", arial, sans-serif;
+  --font-secondary: quicksand, menlo, consolas, monospace;
 }
 
 html {

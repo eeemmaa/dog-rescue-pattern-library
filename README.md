@@ -15,7 +15,7 @@ colors:
   primary: |
     The primary colour is the proxima-nova of colours; it brings sophistication to the site and balances out the lighter and brighter colours chosen.
 
-    This colour is used sparingly since it is on the darker side. Use it for h1s and h2s.
+    This colour is used sparingly since it is on the darker side. Use it for h1s and h2s and button hovers.
   secondary: |
     The secondary colour brings joy and playfulness to the site.
 

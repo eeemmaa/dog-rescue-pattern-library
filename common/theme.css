@@ -49,6 +49,7 @@ blockquote {
 cite {
   color: var(--color-accent);
   font-family: var(--font-secondary);
+  font-weight: 300;
 }
 
 q {

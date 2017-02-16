@@ -6,6 +6,7 @@
   font-weight: 500;
 
   color: var(--color-neutral-light);
+  transition: all 350ms linear;
 }
 
 .btn-big {

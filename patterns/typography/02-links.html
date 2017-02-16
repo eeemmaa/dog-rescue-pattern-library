@@ -12,20 +12,32 @@
   <link href="common.min.css" rel="stylesheet">
   <link href="typography.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 </head>
 <body>
 
+  <div class="text-left">
   <ul class="patternbot-code-details list-group-inline micro push-1-2 pad-t">
-  <li><code>&lt;a&gt;</code></li>
-</ul>
-<ul class="list-group">
-  <li class="tera"><a href="#">Link</a></li>
-  <li class="bold"><a href="#">Link</a></li>
-  <li><a href="#">Link</a></li>
-  <li class="milli"><a href="#">Link</a></li>
-</ul>
+    <li><code>&lt;a&gt;</code></li>
+  </ul>
+  <ul class="list-group">
+    <li class="tera"><a href="#">Link</a></li>
+    <li class="bold"><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+    <li class="milli"><a href="#">Link</a></li>
+  </ul>
+</div>
 
 
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'iog4hfi',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
 </body>
 </html>

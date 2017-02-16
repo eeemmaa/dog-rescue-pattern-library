@@ -13,7 +13,19 @@
   border-radius: 40px;
 }
 
+.btn-banner {
+  background-color: rgba(250,250,250,0.2);
+  border-color: transparent;
+  color: #fafafa;
+}
+
 .btn:hover {
   background-color: var(--color-primary);
   border-color: transparent;
+}
+
+.btn-banner:hover {
+  background-color: rgba(250,250,250,0.2);
+  border-color: transparent;
+  color: var(--color-accent-a);
 }

@@ -20,7 +20,9 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
         </nav>
       </div>
@@ -370,6 +372,39 @@
 
 </section>
 
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -397,9 +432,62 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;a class="btn" href="#"&gt;Standard Button&lt;/a>
-&lt;a class="btn btn-big" href="#">Big Button&lt;/a>
-&lt;a class="btn btn-banner" href="#">Banner Button&lt;/a>
+              <code><pre>&lt;div class="island"&gt;
+  &lt;a class="btn" href="#">Standard Button&lt;/a>
+&lt;/div>
+
+&lt;div class="island">
+  &lt;a class="btn btn-big" href="#">Big Button&lt;/a>
+&lt;/div>
+
+&lt;div class="dark-bg island">
+  &lt;a class="btn btn-banner" href="#">Banner Button&lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The cards help us distinguish between body content and important information (that can also be read on a different, more detailed page).</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-adopt-card">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/adopt-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card crop"&gt;
+  &lt;img class="img-flex" src="../../images/shih-tzu.jpg" alt="This is an image of a Shih Tzu">
+  &lt;div class="island">
+    &lt;h2 class="push-1-4">Dog Name&lt;/h2>
+    &lt;dl>
+      &lt;dt class="push-0">Breed&lt;/dt>
+      &lt;dd class="push-1-2">Shih Tzu&lt;/dd>
+      &lt;dt class="push-0">Gender&lt;/dt>
+      &lt;dd class="push-1-2">Female&lt;/dd>
+      &lt;dt class="push-0">Age&lt;/dt>
+      &lt;dd class="push-1-2">Adult&lt;/dd>
+    &lt;/dl>
+    &lt;span class="btn push-1-4" href="#">View Details&lt;/span>
+  &lt;/div>
+&lt;/div>
 </pre></code>
             </div>
           </div>

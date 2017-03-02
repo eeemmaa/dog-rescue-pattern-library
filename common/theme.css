@@ -59,3 +59,7 @@ q {
 mark {
   background-color: var(--color-secondary);
 }
+
+.dark-bg {
+  background-color: var(--color-primary);
+}
